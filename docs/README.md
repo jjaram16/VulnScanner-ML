@@ -14,9 +14,9 @@
 | ![DVWA](./img/dvwa.png) | ![Scan terminal](./img/terminal_scan.png) | ![Report HTML](./img/report_html.png) |
 
 **Metrics (your machine):**
-- Detected **XX** vulnerabilities on DVWA  
-- Scan time **YY seconds (~YY/60 ≈ ZZ min)**  
-- Classifier accuracy **0.XX** (Logistic Regression, simple features)
+- Detected **524** vulnerabilities on DVWA  
+- Scan time **37 seconds (~0.6 min)**  
+- Classifier accuracy **0.82** (Logistic Regression, simple features)
 
 **Demo video:** [YouTube (Unlisted)](YOUR_YOUTUBE_LINK_HERE)
 
