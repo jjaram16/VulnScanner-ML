@@ -1,0 +1,571 @@
+
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Vuln Report</title>
+<style>body{font-family: system-ui; margin: 24px;} table{border-collapse: collapse; width: 100%;} th,td{border:1px solid #ddd;padding:8px;} th{background:#f5f5f5;text-align:left} .sev2{color:#b00020}.sev1{color:#c98000}.sev0{color:#2b6cb0}
+small{color:#666}
+</style></head>
+<body>
+<h1>Vulnerability Report</h1>
+<p><small>Generated on 2025-09-15T23:24:28.369228</small></p>
+<table>
+  <thead><tr><th>Risk</th><th>Alert</th><th>URL</th><th>Param</th><th>Pred. Severity</th></tr></thead>
+  <tbody>
+  
+    <tr>
+      <td>Medium</td><td>Missing Anti-clickjacking Header</td><td>http://dvwa/login.php</td><td>x-frame-options</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Low</td><td>Cookie No HttpOnly Flag</td><td>http://dvwa/</td><td>PHPSESSID</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Low</td><td>Cookie No HttpOnly Flag</td><td>http://dvwa/</td><td>security</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Medium</td><td>Content Security Policy (CSP) Header Not Set</td><td>http://dvwa/login.php</td><td>nan</td>
+      <td class="sev1">1</td>
+    </tr>
+  
+    <tr>
+      <td>Low</td><td>Cookie without SameSite Attribute</td><td>http://dvwa/</td><td>PHPSESSID</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Low</td><td>Cookie without SameSite Attribute</td><td>http://dvwa/</td><td>security</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Low</td><td>Server Leaks Version Information via "Server" HTTP Response Header Field</td><td>http://dvwa/</td><td>nan</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Low</td><td>Server Leaks Version Information via "Server" HTTP Response Header Field</td><td>http://dvwa/login.php</td><td>nan</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Low</td><td>X-Content-Type-Options Header Missing</td><td>http://dvwa/login.php</td><td>x-content-type-options</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>Session Management Response Identified</td><td>http://dvwa/</td><td>PHPSESSID</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>Session Management Response Identified</td><td>http://dvwa/</td><td>PHPSESSID</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Medium</td><td>Content Security Policy (CSP) Header Not Set</td><td>http://dvwa/sitemap.xml</td><td>nan</td>
+      <td class="sev1">1</td>
+    </tr>
+  
+    <tr>
+      <td>Low</td><td>Server Leaks Version Information via "Server" HTTP Response Header Field</td><td>http://dvwa/dvwa/css/login.css</td><td>nan</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Low</td><td>Server Leaks Version Information via "Server" HTTP Response Header Field</td><td>http://dvwa/sitemap.xml</td><td>nan</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Low</td><td>Server Leaks Version Information via "Server" HTTP Response Header Field</td><td>http://dvwa/robots.txt</td><td>nan</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Low</td><td>Cookie No HttpOnly Flag</td><td>http://dvwa</td><td>PHPSESSID</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Low</td><td>X-Content-Type-Options Header Missing</td><td>http://dvwa/dvwa/css/login.css</td><td>x-content-type-options</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Low</td><td>Server Leaks Version Information via "Server" HTTP Response Header Field</td><td>http://dvwa/dvwa/images/RandomStorm.png</td><td>nan</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Low</td><td>X-Content-Type-Options Header Missing</td><td>http://dvwa/robots.txt</td><td>x-content-type-options</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Low</td><td>Server Leaks Version Information via "Server" HTTP Response Header Field</td><td>http://dvwa/dvwa/images/login_logo.png</td><td>nan</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Low</td><td>X-Content-Type-Options Header Missing</td><td>http://dvwa/dvwa/images/login_logo.png</td><td>x-content-type-options</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>Session Management Response Identified</td><td>http://dvwa</td><td>PHPSESSID</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Low</td><td>Server Leaks Version Information via "Server" HTTP Response Header Field</td><td>http://dvwa/login.php</td><td>nan</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Low</td><td>X-Content-Type-Options Header Missing</td><td>http://dvwa/dvwa/images/RandomStorm.png</td><td>x-content-type-options</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Low</td><td>Cookie No HttpOnly Flag</td><td>http://dvwa</td><td>security</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Low</td><td>Cookie without SameSite Attribute</td><td>http://dvwa</td><td>PHPSESSID</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>Authentication Request Identified</td><td>http://dvwa/login.php</td><td>Login</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Low</td><td>Cookie No HttpOnly Flag</td><td>http://dvwa/login.php</td><td>PHPSESSID</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>Session Management Response Identified</td><td>http://dvwa/login.php</td><td>PHPSESSID</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Low</td><td>Cookie without SameSite Attribute</td><td>http://dvwa</td><td>security</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Low</td><td>Server Leaks Version Information via "Server" HTTP Response Header Field</td><td>http://dvwa</td><td>nan</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Low</td><td>Cookie No HttpOnly Flag</td><td>http://dvwa/login.php</td><td>security</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>Session Management Response Identified</td><td>http://dvwa</td><td>PHPSESSID</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Low</td><td>Cookie without SameSite Attribute</td><td>http://dvwa/login.php</td><td>PHPSESSID</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Low</td><td>Cookie without SameSite Attribute</td><td>http://dvwa/login.php</td><td>security</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>Session Management Response Identified</td><td>http://dvwa/login.php</td><td>PHPSESSID</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Medium</td><td>Directory Browsing</td><td>http://dvwa/dvwa/</td><td>nan</td>
+      <td class="sev1">1</td>
+    </tr>
+  
+    <tr>
+      <td>Medium</td><td>Directory Browsing</td><td>http://dvwa/dvwa/css/</td><td>nan</td>
+      <td class="sev1">1</td>
+    </tr>
+  
+    <tr>
+      <td>Medium</td><td>Directory Browsing</td><td>http://dvwa/dvwa/images/</td><td>nan</td>
+      <td class="sev1">1</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa/dvwa</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa/login.php</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa/dvwa/images</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa/dvwa/css</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa/login.php</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa/dvwa/images</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa/login.php</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa/dvwa/images</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa/dvwa/images</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa/dvwa/css</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa/dvwa</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa/dvwa/css</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa/dvwa</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa/login.php</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa/dvwa/css</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa/login.php</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa/dvwa/images</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa/login.php</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa/dvwa/images</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa/dvwa/css</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa/login.php</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa/dvwa</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa/dvwa/images</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa/login.php</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa/dvwa/css</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa/dvwa</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa/dvwa/images</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa/login.php</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa/dvwa</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa/login.php</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa/dvwa/css</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa/dvwa/images</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa/dvwa/css</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa/dvwa</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa/login.php</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa/dvwa/css</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa/dvwa/images</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa/login.php</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa/dvwa</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa/dvwa/css</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa/dvwa/images</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa/login.php</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa/dvwa/css</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa/dvwa</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa/dvwa/images</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa/dvwa</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa/dvwa/css</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa/dvwa</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa/login.php</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa/login.php</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa/dvwa</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa/login.php</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa/login.php</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa/login.php</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa/login.php</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa/login.php</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa/login.php</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa/login.php</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa/login.php</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+    <tr>
+      <td>Informational</td><td>User Agent Fuzzer</td><td>http://dvwa/login.php</td><td>Header User-Agent</td>
+      <td class="sev0">0</td>
+    </tr>
+  
+  </tbody>
+</table>
+</body></html>

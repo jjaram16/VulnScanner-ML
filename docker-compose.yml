@@ -1,0 +1,31 @@
+services:
+  dvwa:
+    image: vulnerables/web-dvwa
+    container_name: dvwa
+    ports:
+      - "8081:80"
+    environment:
+      - MYSQL_PASSWORD=dvwa
+      - MYSQL_USER=dvwa
+      - MYSQL_DATABASE=dvwa
+      - MYSQL_ROOT_PASSWORD=dvwa
+    restart: unless-stopped
+
+  zap:
+    image: ghcr.io/zaproxy/zaproxy:stable
+    container_name: zap
+    command:
+      [
+        "zap.sh","-daemon",
+        "-port","8090",
+        "-host","0.0.0.0",
+        "-config","api.key=${ZAP_API_KEY}",
+        "-config","api.addrs.addr.name=.*",
+        "-config","api.addrs.addr.regex=true"
+      ]
+    ports:
+      - "8090:8090"
+    restart: unless-stopped
+
+
+
