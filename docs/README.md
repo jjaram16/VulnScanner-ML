@@ -18,7 +18,6 @@
 - Scan time **37 seconds (~0.6 min)**  
 - Classifier accuracy **0.82** (Logistic Regression, simple features)
 
-**Demo video:** [YouTube (Unlisted)](YOUR_YOUTUBE_LINK_HERE)
 
 ---
 
